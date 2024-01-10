@@ -1,13 +1,37 @@
-**ToDoList Application Using Java and Spring Boot **
+## ToDoList Application
 
+#Overview
 This project is about creating a ToDoList using Java and Spring Boot. 
-It will consists of the following:
-- Build a REST API application using Java. 
-- Complete a Spring project. 
-- Build a feature that works well.
 
-The below features have been built:
-1. Finish Todo features:
-   - Be able to perform CRUD operations, including add, update, remove and tasks (completed).
-2. Exception handling: Implement exception handling effectively in this Todo Application project
-3. Validation: Implement validation effectively in this Todo Application project
+## Features
+
+- **Task Management:** Add, edit, and delete tasks to keep your todo list up-to-date
+
+- **Status Tracking:** Update task's status as completed or incomplete
+
+- **Data Validation:** Vaidate user's input to ensure that valid input has been made before storing data into database and appropriate error message will be displayed
+
+## Tech Stack
+
+- **Backend:**
+  - Java
+  - Spring Boot
+
+- **Database:**
+  - mysql
+
+## Folder Structure
+
+The project follows a well-organized folder structure to maintain clarity and separation of concerns:
+
+- **`src/`**: Contains the source code for the backend components.
+  - **`main/`**: Core application code.
+    - **`java/`**: Java source files.
+      - **`com.sctp.todoapplication/`**: Main application package.
+        - **`controllers/`**: Contains REST controllers.
+        - **`models/`**: Defines data models.
+        - **`repositories/`**: Manages data access.
+        - **`services/`**: Implements business logic.
+        - **`exception/`**: Handles exception
+    - **`resources/`**: Configuration files, application properties, and static resources.
+      - **`application.properties`**: Configures application properties, including the database connection.
